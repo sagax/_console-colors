@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["avastor.developer@gmail.com"]
   gem.description   = %q{color string output in console}
   gem.summary       = %q{color string output in console}
-  gem.homepage      = "avastor.pp.ua/projects/console-colors"
+  gem.homepage      = "http://avastor.pp.ua/projects/console-colors"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
