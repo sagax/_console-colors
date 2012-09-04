@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+    require 'console-colors'
+
     puts "red text".red
     puts "#{'this colorize in red color'.red} and #{'this is blue'.blue}'
 
