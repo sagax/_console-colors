@@ -1,6 +1,6 @@
 # Console::Colors
 
-TODO: Write a gem description
+    Color string output in console
 
 ## Installation
 
