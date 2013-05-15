@@ -2,8 +2,7 @@ module Console
   module Colors
     MAJOR = 0
     MINOR = 0
-    TINY = 1
-    PRE = "beta"
+    TINY = 2
     VERSION = [MAJOR, MINOR, TINY, PRE].compact.join('.')
   end
 end
