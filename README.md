@@ -6,7 +6,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'console-colors'
+    gem 'console-colors', '~> 0.0.1.beta'
 
 And then execute:
 
@@ -21,8 +21,20 @@ Or install it yourself as:
     require 'console-colors'
 
     puts "red text".red
-    puts "#{'this colorize in red color'.red} and #{'this is blue'.blue}'
+    puts "#{'this colorize in a red color'.red} and #{'this is a blue'.blue}'
+## Colors
 
+    p "This is a red colour".red
+    p "This is a green colour".green
+    p "This is a blue colour".blue
+    p "This is a dark red colour".dark_red
+    p "This is a dark green colour".dark_green
+    p "This is a dark blue colour".dark_blue
+    p "This is a turquoise colour".turquoise
+    p "This is a white colour".white
+    p "This is a blink style".blink
+    p "This is a underline style".underline
+        
 ## Contributing
 
 1. Fork it
