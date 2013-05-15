@@ -6,7 +6,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'console-colors', '~> 0.0.1.beta'
+    gem 'console-colors'
 
 And then execute:
 
