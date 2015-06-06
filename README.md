@@ -22,6 +22,7 @@ Or install it yourself as:
 
     puts "red text".red
     puts "#{'this colorize in a red color'.red} and #{'this is a blue'.blue}'
+
 ## Colors
 
     p "This is a red colour".red
@@ -34,7 +35,7 @@ Or install it yourself as:
     p "This is a white colour".white
     p "This is a blink style".blink
     p "This is a underline style".underline
-        
+
 ## Contributing
 
 1. Fork it

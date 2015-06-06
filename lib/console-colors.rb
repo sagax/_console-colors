@@ -3,18 +3,18 @@ require "console-colors/version"
 module Console
   module Colors
     COLORS_CONSTANT = {
-        red: "\e[1m\e[31m",
-        green: "\e[1m\e[32m",
-        blue: "\e[1m\e[36m",
-        dark_red: "\e[31m",
-        dark_green: "\e[32m",
-	yellow: "\e[33m",
-        dark_blue: "\e[34m",
-	pink: "\e[35m",
-        turquoise: "\e[36m",
-        white: "\e[37m",
-        blink: "\e[5m",
-        underline: "\e[4m",		
+      red:        "\e[1m\e[31m",
+      green:      "\e[1m\e[32m",
+      blue:       "\e[1m\e[36m",
+      dark_red:   "\e[31m",
+      dark_green: "\e[32m",
+      yellow:     "\e[33m",
+      dark_blue:  "\e[34m",
+      pink:       "\e[35m",
+      turquoise:  "\e[36m",
+      white:      "\e[37m",
+      blink:      "\e[5m",
+      underline:  "\e[4m"
     }
     class << self
       def ansi_color(text, code)
